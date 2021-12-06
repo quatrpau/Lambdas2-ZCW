@@ -1,0 +1,25 @@
+package java;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class ExecutionTester{
+    private LocalClass one;
+    private AnonClass two;
+    private LambdaClass three;
+    @Before
+    public void setUp(){
+        LocalClass
+    }
+    @Test
+    public void localClassTest(){}
+    @Test
+    public void anonClassTest(){
+
+    }
+    @Test
+    public void lambdaExpressionTest(){
+
+    }
+
+}
