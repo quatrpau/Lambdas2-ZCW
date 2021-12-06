@@ -1,8 +1,12 @@
-package java;
+package javaTest;
 
 import org.junit.Before;
 import org.junit.Test;
 
+import javaReal.AnonClass;
+import javaReal.LambdaClass;
+import javaReal.LocalClass;
+import javaReal.Person;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -26,11 +30,11 @@ public class ExecutionTester{
     }
     @Test
     public void anonClassTest(){
-
+        new AnonClass().printPerson(people);
     }
     @Test
     public void lambdaExpressionTest(){
-
+        new LambdaClass().printPerson(people, q->q.getEmailAddress().equals("A"));
     }
 
 }
